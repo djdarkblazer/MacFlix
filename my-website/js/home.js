@@ -1,6 +1,6 @@
 const API_KEY = '1ed5bd13425bf4d7a4784d60f411e2ad';
-    const BASE_URL = 'https://apimocine.vercel.app/movie/';
-    const IMG_URL = 'https://image.tmdb.org/t/p/original';
+    const BASE_URL = 'https://www.2embed.cc/';
+    const IMG_URL = 'https://www.2embed.cc/';
     let currentItem;
 
     async function fetchTrending(type) {
