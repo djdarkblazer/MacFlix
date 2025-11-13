@@ -59,9 +59,9 @@ const API_KEY = '1ed5bd13425bf4d7a4784d60f411e2ad';
       let embedURL = "";
 
       if (server === "vidsrc.cc") {
-        embedURL = `https://player.autoembed.cc/embed/${type}/${currentItem.id}`;
+        embedURL = `https://vidsrc.cc/v2/embed/${type}/${currentItem.id}`;
       } else if (server === "vidsrc.me") {
-        embedURL = `https://player.autoembed.cc/embed/${type}/?tmdb=${currentItem.id}`;
+        embedURL = `https://vidsrc-embed.ru/embed/${type}/?tmdb=${currentItem.id}`;
       } else if (server === "player.videasy.net") {
         embedURL = `https://player.videasy.net/${type}/${currentItem.id}`;
       }
